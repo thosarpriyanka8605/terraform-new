@@ -1,4 +1,4 @@
-ami_id = "ami-ami-01a00762f46d584a1"
+ami_id = "ami-01a00762f46d584a1"
 
 delete_on_termination = true
 
