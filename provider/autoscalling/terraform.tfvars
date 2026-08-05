@@ -1,4 +1,4 @@
-ami_id = "ami-01a00762f46d584a1"
+ami_id = "ami-0b6d9d3d33ba97d99"
 
 instance_types = ["t3.micro"]
 
@@ -9,7 +9,7 @@ volume_types = ["gp3"]
 delete_on_termination = true
 
 sg_map = {
-  default = "sg-02f07389f641470f5"
+  default = "sg-0228cdd58be6dafc0"
 }
 
 tags = {
@@ -17,7 +17,6 @@ tags = {
   webserver = "WebServer"
 }
 
-# Replace these with your own values
 vpc_id = "vpc-046ae8bcb50569e3f"
 
 subnet_ids = [
