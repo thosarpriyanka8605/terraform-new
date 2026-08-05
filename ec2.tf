@@ -1,7 +1,7 @@
 resource "aws_instance" "devops" {
-  ami                    = "ami-0b6d9d3d33ba97d99"
+  ami                    = "ami-01a00762f46d584a1"
   instance_type          = "t3.micro"
-  vpc_security_group_ids = ["sg-0228cdd58be6dafc0"]
+  vpc_security_group_ids = ["sg-02f07389f641470f5"]
 
   root_block_device {
     delete_on_termination = true
